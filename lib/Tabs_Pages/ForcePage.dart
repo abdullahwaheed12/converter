@@ -180,14 +180,15 @@ class _ForcePageState extends State<ForcePage> {
               width: width,
               height: height / 2,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    Colors.amberAccent.shade100,
-                    Colors.amber,
-                  ],
-                  begin: Alignment.bottomLeft,
-                  end: Alignment.topRight,
-                ),
+                color: Colors.amber,
+                // gradient: LinearGradient(
+                //   colors: [
+                //     Colors.amberAccent.shade100,
+                //     Colors.amber,
+                //   ],
+                //   begin: Alignment.bottomLeft,
+                //   end: Alignment.topRight,
+                // ),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -219,7 +220,7 @@ class _ForcePageState extends State<ForcePage> {
                               keyboardType: TextInputType.number,
                               cursorColor: Colors.white,
                               decoration: InputDecoration(
-                                labelText: 'Enter Length',
+                                labelText: 'Enter Value',
                                 labelStyle: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,
@@ -346,8 +347,8 @@ class _ForcePageState extends State<ForcePage> {
                               calculate();
                             },
                             style: ButtonStyle(
-                                backgroundColor: MaterialStateProperty.all(
-                                    Colors.amber.shade900)),
+                                backgroundColor:
+                                    MaterialStateProperty.all(Colors.amber)),
                             child: Text('Calculate'),
                           ),
                         ),

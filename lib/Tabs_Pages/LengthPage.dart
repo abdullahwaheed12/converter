@@ -75,14 +75,16 @@ class _LengthPageState extends State<LengthPage> {
               width: width,
               height: height / 2,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    Colors.redAccent.shade100,
-                    Colors.red,
-                  ],
-                  begin: Alignment.bottomLeft,
-                  end: Alignment.topRight,
-                ),
+                color: Colors.redAccent.shade200,
+
+                // gradient: LinearGradient(
+                //   colors: [
+                //     Colors.redAccent.shade100,
+                //     Colors.red,
+                //   ],
+                //   begin: Alignment.bottomLeft,
+                //   end: Alignment.topRight,
+                // ),
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,

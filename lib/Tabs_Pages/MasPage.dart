@@ -1301,7 +1301,7 @@ class _MassPageState extends State<MassPage> {
                               keyboardType: TextInputType.number,
                               cursorColor: Colors.white,
                               decoration: InputDecoration(
-                                labelText: 'Enter Length',
+                                labelText: 'Enter Weight',
                                 labelStyle: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,

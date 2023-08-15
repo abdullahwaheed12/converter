@@ -64,14 +64,7 @@ class _TemperaturePageState extends State<TemperaturePage> {
               width: width,
               height: height / 2,
               decoration: BoxDecoration(
-                gradient: LinearGradient(
-                  colors: [
-                    Colors.deepOrangeAccent.shade100,
-                    Colors.deepOrange,
-                  ],
-                  begin: Alignment.bottomLeft,
-                  end: Alignment.topRight,
-                ),
+                color: Colors.deepOrange.shade400,
               ),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -103,7 +96,7 @@ class _TemperaturePageState extends State<TemperaturePage> {
                               keyboardType: TextInputType.number,
                               cursorColor: Colors.white,
                               decoration: InputDecoration(
-                                labelText: 'Enter Length',
+                                labelText: 'Enter Temp',
                                 labelStyle: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,

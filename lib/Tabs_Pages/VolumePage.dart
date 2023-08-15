@@ -2327,7 +2327,7 @@ class _VolumePageState extends State<VolumePage> {
                               keyboardType: TextInputType.number,
                               cursorColor: Colors.white,
                               decoration: InputDecoration(
-                                labelText: 'Enter Length',
+                                labelText: 'Enter Volume',
                                 labelStyle: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,

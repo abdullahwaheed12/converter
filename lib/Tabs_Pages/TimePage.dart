@@ -571,7 +571,7 @@ class _TimePageState extends State<TimePage> {
                               keyboardType: TextInputType.number,
                               cursorColor: Colors.white,
                               decoration: InputDecoration(
-                                labelText: 'Enter Length',
+                                labelText: 'Enter Time',
                                 labelStyle: TextStyle(
                                   fontSize: 16,
                                   color: Colors.white,
