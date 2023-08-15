@@ -31,6 +31,7 @@ dependencies:
   particles_flutter: ^0.1.4
   glassmorphism: 
   provider: 
+  firebase_core: ^1.12.0
 
 dev_dependencies:
   flutter_test:

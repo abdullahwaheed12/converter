@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1094141336457",
+    "project_id": "my-converter-flutter",
+    "storage_bucket": "my-converter-flutter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1094141336457:android:ad4f2745d872bca609df58",
+        "android_client_info": {
+          "package_name": "com.gmail.abdullahWaheed.unitconverter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1094141336457-ar07braqe1dgohidh64escbt4i6nceki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmhoG1CbA_7AHpsF0L3iZAeovI3CRtw6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1094141336457-ar07braqe1dgohidh64escbt4i6nceki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
